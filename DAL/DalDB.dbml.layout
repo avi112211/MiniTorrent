@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DalDB">
+  <DataContextMoniker Name="/DalDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7698dd32-f315-4023-9027-05c9bf5a17a4" absoluteBounds="2.625, 2, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DalDBDataContext/File" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5ee5bed7-fbe9-46b1-8436-9c37892a381a" absoluteBounds="2.64, 2.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="86c4fdc8-eb3f-40bc-837d-aeca06b6a8fe" absoluteBounds="6.375, 1.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DalDBDataContext/Table" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a09b5444-549e-4b17-904e-6e01459d6f1e" absoluteBounds="6.39, 2.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

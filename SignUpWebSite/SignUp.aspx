@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SignUp.aspx.cs" Inherits="_Default" %>
 
 <!DOCTYPE html>
 
@@ -33,11 +33,9 @@
         <asp:Button ID="Button1" runat="server" Text="Send" OnClick="Button1_Click"/>
         <br />
         <br />
+        <asp:Label ID="emptyFields" runat="server" ForeColor="Red" Text="Fields can't be empty" Visible="False"></asp:Label>
+        <br />
         <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="Password" ControlToValidate="RePassword" ErrorMessage="Passwords don't match" ForeColor="Red"></asp:CompareValidator>
-        <br />
-        <asp:CustomValidator ID="CustomValidator1" runat="server" ErrorMessage="Password have to be at least 4 char" ForeColor="Red" OnServerValidate="CustomValidator1_ServerValidate" SetFocusOnError="True"></asp:CustomValidator>
-        <br />
-        <asp:Label ID="Label4" runat="server" ForeColor="Red" Text="Password have to be at least 4 char" Visible="False"></asp:Label>
         <br />
         <asp:Label ID="Label5" runat="server" ForeColor="Red" Text="Username already in use" Visible="False"></asp:Label>
         <br />

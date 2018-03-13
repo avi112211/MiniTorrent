@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MiniTorrent_Server.Properties {
+namespace DAL.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,9 +26,8 @@ namespace MiniTorrent_Server.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"E:\\Afeka\\dot net\\projects\\HW" +
-            "\\MiniTorrent\\SignUpWebSite\\App_Data\\AviTorrentsDB.mdf\";Integrated Security=True;" +
-            "Connect Timeout=30")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"D:\\MiniTorrent\\SignUpWebSite" +
+            "\\App_Data\\AviTorrentsDB.mdf\";Integrated Security=True;Connect Timeout=30")]
         public string AviTorrentsDBConnectionString {
             get {
                 return ((string)(this["AviTorrentsDBConnectionString"]));
